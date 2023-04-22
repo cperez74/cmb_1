@@ -1,0 +1,39 @@
+@media screen and (max-width: 800px){
+    .slider_container{
+        visibility: hidden;
+    }
+}
+
+/*medidas de desktop*/
+.slider_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 0px auto;
+    max-width: 1200px;
+    max-height: 900px;
+    padding: 0px 40px;
+}
+
+.slider_left, .slider_rigth {
+    width: 5%;
+    height: 5%;
+}
+
+.slider_left img, .slider_rigth img{
+    width: 100%;
+    height: 100%;
+}
+
+.slider_screen{
+    width: 90%;
+    height: 90%;
+}
+
+.slider_screen img{
+    width: 100%;
+    height: 100%;
+}
+
+

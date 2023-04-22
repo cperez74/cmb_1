@@ -1,0 +1,91 @@
+/*debajo 1900px - sobre 900px*/
+@media (max-width: 1900px) and (min-width: 900px){
+
+    body{
+        width: 1900px;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--color-tertiary);
+    }
+
+
+}
+
+
+/*----------------------------*/
+/*debajo 900px - sobre 375px*/
+@media (max-width: 900px) and (min-width: 375px){
+
+    body{
+        width: 900px;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--color-tertiary);
+    }
+}
+
+
+/*----------------------------*/
+/*debajo 375px*/
+@media (max-width: 375px){
+
+    body{
+        width: 375px;
+        height: 900px;
+        background-color: var(--color-tertiary);
+    }
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+a{
+        text-decoration: none;
+        color: var(--color-secondary);
+        font-size: 15px;
+        font-family:monserratsemiboldcustom;
+}
+
+.description h2{
+    font-family: monserratboldcustom;
+    margin-top: 20px;
+    text-align: center;
+    color: var(--color-primary)
+}
+
+
+.caption h2{
+    font-family: monserratboldcustom;
+    text-transform: uppercase;
+    padding: 15px;
+    color: var(--color-primary);
+    text-align: left;
+    margin-left: 50px;
+}
+
+
+.caption h3{
+    font-family: monserratboldcustom;
+    text-transform: uppercase;
+    padding: 20px;
+    color: var(--color-primary);
+    text-align: left;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+

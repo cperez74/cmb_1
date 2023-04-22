@@ -1,0 +1,347 @@
+/*debajo 1900px - sobre 900px*/
+@media (max-width: 1900px) and (min-width: 900px){
+
+/*footer*/
+#box{
+    display: flex;
+    flex-direction: row;
+    width: 1900px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+footer{
+    background:#1d1515;
+    max-width: 1900px;
+}
+
+.contact{
+    width: 1900px;
+}
+
+.contact p{
+    color:#ffa200;
+    font-family: monserratsemiboldcustom;
+    font-size: 17px;
+    margin: 0px 3px -20px 4px;
+}
+
+.contact h4{
+    color:#ffa200;
+    text-align: left;
+    font-family:monserratboldcustom;
+    font-size: 20px;
+    margin: 3px 3px 3px 140px;
+}
+
+.icon{
+    width: 122px;
+    height: 122px;
+}
+
+.icon img{
+    width: 100%;
+    height: 100%;
+    margin: 63px/*top*/ 0px/*right*/ 0px/*bottom*/ -1600px/*left*/;
+    padding: -100px;
+    border: -100px;
+    color: var(--color-secondary);
+}
+
+
+
+/* politicas de cookies y politicas de privacidad */
+
+h1{
+    color:#1d1515;
+    font-family: monserratboldcustom;
+    font-size: 35px;
+    margin-left: 5px;
+}
+
+.text h2{
+    color:#1d1515;
+    font-family: monserratsemiboldcustom;
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.text h3{
+    color:#1d1515;
+    font-family: monserratsemiboldcustom;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.text p{
+    color:#1d1515;
+    font-family: monserratcustom;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.text ul{
+    color:#1d1515;
+    font-family: monserratligthcustom;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.text ul li{
+    color:#1d1515;
+    font-family: monserratligthcustom;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+
+/* politicas de cookies y politicas de privacidad*/
+
+h1{
+    color:#1d1515;
+    font-family: monserratboldcustom;
+    font-size: 35px;
+    margin-left: 5px;
+}
+
+.text h2{
+    color:#1d1515;
+    font-family: monserratsemiboldcustom;
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.text h3{
+    color:#1d1515;
+    font-family: monserratsemiboldcustom;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.text p{
+    color:#1d1515;
+    font-family: monserratcustom;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.text ul{
+    color:#1d1515;
+    font-family: monserratligthcustom;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.text ul li{
+    color:#1d1515;
+    font-family: monserratligthcustom;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+}
+
+/*----------------------------*/
+/*debajo 900px - sobre 375px*/
+@media (max-width: 900px) and (min-width: 375px){
+
+    /*footer*/
+#box{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+footer{
+    background:#1d1515;
+    max-width: 900px;
+}
+
+.contact{
+    width: 900px;
+}
+
+.contact p{
+    color:#ffa200;
+    font-family: monserratsemiboldcustom;
+    font-size: 17px;
+    margin: 0px 3px -20px 4px;
+}
+
+.contact h4{
+    color:#ffa200;
+    text-align: left;
+    font-family:monserratboldcustom;
+    font-size: 20px;
+    margin: 3px 3px 3px 140px;
+}
+
+.icon{
+    width: 122px;
+    height: 122px;
+}
+
+.icon img{
+    width: 100%;
+    height: 100%;
+    margin: 63px/*top*/ 0px/*right*/ 0px/*bottom*/ -1600px/*left*/;
+    padding: -100px;
+    border: -100px;
+    color: var(--color-secondary);
+}
+
+
+
+/* politicas de cookies y politicas de privacidad */
+
+h1{
+    color:#1d1515;
+    font-family: monserratboldcustom;
+    font-size: 35px;
+    margin-left: 5px;
+}
+
+.text h2{
+    color:#1d1515;
+    font-family: monserratsemiboldcustom;
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.text h3{
+    color:#1d1515;
+    font-family: monserratsemiboldcustom;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.text p{
+    color:#1d1515;
+    font-family: monserratcustom;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.text ul{
+    color:#1d1515;
+    font-family: monserratligthcustom;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.text ul li{
+    color:#1d1515;
+    font-family: monserratligthcustom;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+
+/* politicas de cookies y politicas de privacidad*/
+
+h1{
+    color:#1d1515;
+    font-family: monserratboldcustom;
+    font-size: 35px;
+    margin-left: 5px;
+}
+
+.text h2{
+    color:#1d1515;
+    font-family: monserratsemiboldcustom;
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.text h3{
+    color:#1d1515;
+    font-family: monserratsemiboldcustom;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.text p{
+    color:#1d1515;
+    font-family: monserratcustom;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.text ul{
+    color:#1d1515;
+    font-family: monserratligthcustom;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.text ul li{
+    color:#1d1515;
+    font-family: monserratligthcustom;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+}
+
+/*----------------------------*/
+/*debajo 375px*/
+@media (max-width: 375px){
+
+/*footer*/
+    #box{
+        display: flex;
+        width: 375px;
+        height: 200px;
+    }
+
+    footer{
+        background:#1d1515;
+        max-width: 375px;
+        max-height: 200px;
+    }
+
+    .contact{
+        width: 375px;
+    }
+
+    .contact p{
+        color:#ffa200;
+        font-family: monserratsemiboldcustom;
+        font-size: 17px;
+        margin-bottom: -18px;
+        margin-top: 0px;
+        margin-left: 4px;
+        align-items: center;
+    }
+
+    .contact h4{
+        color:#ffa200;
+        text-align: center;
+        font-family:monserratboldcustom;
+        font-size: 8px;
+        margin: 3px;
+        align-items: center;
+    }
+
+/*politicas y privacidad*/
+    .politics{
+        background:#1d1515;
+        max-width: 500px;
+        margin-top: -1px;
+    }
+
+    .politics a{
+        color:#ffa200;
+        font-family: monserratsemiboldcustom;
+        font-size: 17px;
+        margin-left: 4px;
+    }
+
+}
+
+
+
+
+

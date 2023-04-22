@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    font-family: monserratsemiboldcustom;
+    background-color: white;
+}
+
+.box_1{
+    display: flex;
+}
+
+/*debajo 1900px - sobre 900px*/
+@media (max-width: 1900px) and (min-width: 900px){
+    /*contacto*/
+    .contact_1{
+        width: 500px;
+        height: 450px;
+    }
+
+    .contact_1 h4{
+    color:#1c1515;
+    text-align: left;
+    font-family:monserratboldcustom;
+    font-size: 20px;
+    margin: 10px 3px 3px 140px;
+    }
+
+    .contact_1 p{
+    color:#1c1515;
+    font-family: monserratsemiboldcustom;
+    font-size: 17px;
+    margin: 10px 3px 0px 4px;
+    }
+
+    .link_whatsapp{
+        color:#1c1515;
+        font-family: monserratsemiboldcustom;
+        font-size: 17px;
+        margin: 10px 3px 0px 4px;
+    }
+
+/*Direccion*/
+    .location{
+        width: 700px;
+        height: 500px;
+    }
+
+    .location iframe{
+        width: 690px;
+        height: 450px;
+    }
+
+}
+
+/*----------------------------*/
+/*debajo 900px - sobre 375px*/
+@media (max-width: 900px) and (min-width: 375px){
+    /*contacto*/
+    .contact_1{
+        width: 500px;
+        height: 450px;
+    }
+
+    .contact_1 h4{
+    color:#1c1515;
+    text-align: left;
+    font-family:monserratboldcustom;
+    font-size: 20px;
+    margin: 10px 3px 3px 140px;
+    }
+
+    .contact_1 p{
+    color:#1c1515;
+    font-family: monserratsemiboldcustom;
+    font-size: 17px;
+    margin: 10px 3px 0px 4px;
+    }
+
+    .link_whatsapp{
+        color:#1c1515;
+        font-family: monserratsemiboldcustom;
+        font-size: 17px;
+        margin: 10px 3px 0px 4px;
+    }
+
+/*Direccion*/
+    .location{
+        width: 700px;
+        height: 500px;
+    }
+
+    .location iframe{
+        width: 690px;
+        height: 450px;
+    }
+
+}
+
+/*----------------------------*/
+/*debajo 375px*/
+@media (max-width: 375px){
+
+    .box_1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact_1{
+        margin: 8px 8px 8px 8px;
+    }
+
+    .contact_1 h4{
+        margin: 10px 3px 3px 140px;
+        }
+
+        /*Direccion*/
+    .location{
+        width: 370px;
+        height: 300px;
+        margin: 15px 3px 15px 15px;
+    }
+
+    .location iframe{
+        width: 350px;
+        height: 295px;
+    }
+
+}
+
